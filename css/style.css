@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ display: grid;
+ margin: 0;
+ min-height: 100vh;
+ font-family: Helvetica;
+/* they divide the fifths or fourths with grid template colums  or use 20% percentages NOte see flex grow for flex container  */
+grid-template-columns: 2fr 4fr;
+grid-template-rows: 50px 1fr 30px;
+background-color: blue;
+}
+
+.container {
+background-color: gold;
+}
+
+.item-1 {
+background-color: chartreuse;
+}
+.item-2 {
+background-color: crimson;
+}
+
+.item-3 {
+background-color: darkmagenta;
+}
